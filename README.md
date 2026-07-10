@@ -102,16 +102,3 @@ Combines **Note-taking**, **Calendar**, and a full-featured **Habit Tracker** in
 ## License
 
 MIT License — feel free to use and modify as you like.
-
----
-
-### How to add this file to your project:
-
-I can create the actual `README.md` file for you right now.
-
-Would you like me to:
-
-1. **Write the full `README.md` file** in your project directory using the content above?
-2. Or make any custom changes first (e.g., add screenshots, GitHub links, etc.)?
-
-Just say the word and I'll create it!
