@@ -1,0 +1,80 @@
+:root{
+  --card-radius: 12px;
+  --accent: #0d6efd;
+  --muted: #6c757d;
+}
+
+body { font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial; }
+
+/* Card polish */
+.card { border: none; border-radius: var(--card-radius); }
+.card .card-body { padding: 1rem; }
+
+/* Habit card */
+.habit-card {
+  transition: transform .18s ease, box-shadow .18s ease;
+  border-radius: 12px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.8), rgba(250,250,250,0.75));
+  box-shadow: 0 6px 18px rgba(19,24,36,0.06);
+}
+.habit-card:hover { transform: translateY(-6px); box-shadow: 0 10px 24px rgba(19,24,36,0.09); }
+.habit-title { font-weight: 600; }
+
+/* Progress circle container */
+.progress-wrap { width:70px; height:70px; display:inline-block; }
+
+/* Floating small button for quick action */
+.btn-complete { min-width: 44px; }
+
+/* Small helpers */
+.small-muted { color: var(--muted); font-size: .875rem; }
+
+/* responsive */
+@media (max-width: 768px){
+  .sticky-top { position: static !important; }
+}
+/* Heatmap (year-in-pixels) */
+.heatmap-scroll {
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+.heatmap-grid {
+  display: block;
+}
+.heatmap-cell {
+  stroke: rgba(0,0,0,0.04);
+  stroke-width: 1;
+  rx: 2;
+}
+.heatmap-cell.slip {
+  filter: drop-shadow(0 0 0 rgba(0,0,0,0));
+}
+.heatmap-month-label {
+  font-size: 9px;
+  fill: var(--muted);
+}
+.heatmap-dow-label {
+  font-size: 8px;
+  fill: var(--muted);
+}
+
+/* Break-habit card styling */
+.habit-card.break-mode {
+  background: linear-gradient(180deg, rgba(255,255,255,0.85), rgba(253,247,247,0.8));
+}
+.clean-pill {
+  display: inline-block;
+  padding: .15rem .55rem;
+  border-radius: 999px;
+  font-size: .75rem;
+  font-weight: 600;
+}
+
+/* Sidebar break-streak mini list */
+#breakStreaksWrap .break-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .8rem;
+  padding: 2px 0;
+}
