@@ -4,7 +4,7 @@ A simple, beautiful, offline-first personal productivity web app built with vani
 
 Combines **Note-taking**, **Calendar**, and a full-featured **Habit Tracker** in one cohesive experience.
 
-![Demo](https://via.placeholder.com/800x400/0d6efd/ffffff?text=NoteBox+%2B+Habitly) <!-- Replace with actual screenshot later -->
+<img width="1918" height="907" alt="Habit Tracker" src="https://github.com/user-attachments/assets/d9567b2b-3c8c-4861-ac68-55acadc8f87b" />
 
 ## ✨ Features
 
