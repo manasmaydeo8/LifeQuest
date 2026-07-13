@@ -55,15 +55,16 @@ Combines **Note-taking**, **Calendar**, and a full-featured **Habit Tracker** in
 ## 🚀 How to Run
 
 1. Download or clone the project
-2. Place all files in the same folder:
+2. Place all files in the same folder (everything is flat, no subfolders):
    - `index.html` (Habit Tracker)
    - `home.html`
    - `notes.html`
-   - `calendar.html` (or `calender.html`)
+   - `task.html`
+   - `calendar.html`
+   - `settings.html`
    - `login.html`
    - `app.js`
-   - `js/js_app.js`
-   - `css/css_styles.css`
+   - `css_styles.css`
 3. Open `login.html` in your browser
 
 > No installation or build step required!
@@ -73,13 +74,12 @@ Combines **Note-taking**, **Calendar**, and a full-featured **Habit Tracker** in
 ├── login.html
 ├── home.html
 ├── notes.html
+├── task.html
 ├── calendar.html
+├── settings.html
 ├── index.html          ← Habit Tracker (main page)
-├── app.js              ← Shared logic (auth, notes, calendar)
-├── js/
-│   └── js_app.js       ← Habit tracker logic
-├── css/
-│   └── css_styles.css
+├── app.js              ← All shared logic (auth, notes, calendar, habit tracker)
+├── css_styles.css
 └── README.md
 
 ## 📌 Notes & Limitations
