@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Habitly | Habits</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="Image/favicon/favicon.ico" />
+
+  <script src="https://kit.fontawesome.com/a646d08f7d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- ================= HEADER ================= -->
+
+  <header>
+    <nav>
+      <img src="Image/Logos-bgrm.png" alt="Habitly Logo" width="70" />
+
+      <ul>
+        <li><a href="index.html">Home</a></li>
+
+        <li><a href="Habits.html" class="active">Habits</a></li>
+
+        <li><a href="Notes.html">Notes</a></li>
+
+        <li><a href="Tasks.html">Tasks</a></li>
+
+        <li><a href="About.html">About</a></li>
+
+        <li>
+          <a href="Login.html">
+            <i class="fa-solid fa-arrow-right-to-bracket"></i>
+            Login
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ================= PAGE TITLE ================= -->
+
+  <section class="about-home">
+    <h1>Habit Tracker</h1>
+
+    <p>
+      Build positive habits and stay consistent every day. Small improvements
+      every day lead to big achievements.
+    </p>
+  </section>
+
+  <!-- ================= SEARCH ================= -->
+
+  <section class="features">
+    <h2>Your Habits</h2>
+
+    <input type="text" placeholder="Search habits..." class="search-box" />
+  </section>
+
+  <!-- ================= FILTER ================= -->
+
+  <section class="features">
+    <div class="filter-buttons">
+      <button class="btn">All</button>
+
+      <button class="btn">Completed</button>
+
+      <button class="btn">Pending</button>
+    </div>
+  </section>
+
+  <!-- ================= HABITS ================= -->
+
+  <section class="features">
+    <div class="feature-container">
+      <div class="feature">
+        <i class="fa-solid fa-glass-water"></i>
+
+        <h3>Drink Water</h3>
+
+        <p>Drink 8 glasses of water every day.</p>
+
+        <button class="btn">Mark Complete</button>
+      </div>
+
+      <div class="feature">
+        <i class="fa-solid fa-book-open"></i>
+
+        <h3>Read Books</h3>
+
+        <p>Read at least 20 pages every day.</p>
+
+        <button class="btn">Mark Complete</button>
+      </div>
+
+      <div class="feature">
+        <i class="fa-solid fa-person-running"></i>
+
+        <h3>Morning Exercise</h3>
+
+        <p>Exercise for 30 minutes.</p>
+
+        <button class="btn">Mark Complete</button>
+      </div>
+
+      <div class="feature">
+        <i class="fa-solid fa-bed"></i>
+
+        <h3>Sleep Early</h3>
+
+        <p>Go to bed before 11 PM.</p>
+
+        <button class="btn">Mark Complete</button>
+      </div>
+
+      <div class="feature">
+        <i class="fa-solid fa-brain"></i>
+
+        <h3>Meditation</h3>
+
+        <p>Meditate for 15 minutes.</p>
+
+        <button class="btn">Mark Complete</button>
+      </div>
+
+      <div class="feature">
+        <i class="fa-solid fa-laptop-code"></i>
+
+        <h3>Practice Coding</h3>
+
+        <p>Solve programming problems daily.</p>
+
+        <button class="btn">Mark Complete</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ADD HABIT ================= -->
+
+  <section class="about-home">
+    <h2>Add New Habit</h2>
+
+    <form>
+      <p>
+        <label>Habit Name</label>
+
+        <br /><br />
+
+        <input type="text" placeholder="Enter habit name" class="search-box" />
+      </p>
+
+      <br />
+
+      <p>
+        <label>Description</label>
+
+        <br /><br />
+
+        <textarea rows="4" placeholder="Describe your habit..." class="search-box"></textarea>
+      </p>
+
+      <br />
+
+      <p>
+        <label>Goal Per Week</label>
+
+        <br /><br />
+
+        <input type="number" placeholder="Example : 5" class="search-box" />
+      </p>
+
+      <br />
+
+      <p>
+        <label>Accent Color</label>
+
+        <br /><br />
+
+        <input type="color" />
+      </p>
+
+      <br />
+
+      <button class="btn">Save Habit</button>
+    </form>
+  </section>
+
+  <!-- ================= QUICK STATS ================= -->
+
+  <section class="features">
+    <h2>Progress</h2>
+
+    <div class="feature-container">
+      <div class="feature">
+        <h3>0</h3>
+
+        <p>Total Habits</p>
+      </div>
+
+      <div class="feature">
+        <h3>0</h3>
+
+        <p>Completed Today</p>
+      </div>
+
+      <div class="feature">
+        <h3>0</h3>
+
+        <p>Pending</p>
+      </div>
+
+      <div class="feature">
+        <h3>0 Days</h3>
+
+        <p>Current Streak</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer>
+    <div class="foot-con">
+      <div class="f-box">
+        <h2>Habit<span>ly</span></h2>
+
+        <p>Track Habits. Write Notes. Manage Tasks.</p>
+      </div>
+
+      <div class="f-box">
+        <h3>Contact</h3>
+
+        <p>Email : support@habitly.com</p>
+
+        <p>Phone : +91 9876543210</p>
+      </div>
+
+      <div class="f-box">
+        <h3>Follow Us</h3>
+
+        <div class="social">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+      <p>&copy; 2026 Habitly. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

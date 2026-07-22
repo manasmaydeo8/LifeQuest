@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Habitly | Tasks</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="icon" href="Image/favicon/favicon.ico" />
+
+    <script
+      src="https://kit.fontawesome.com/a646d08f7d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- ================= HEADER ================= -->
+
+    <header>
+      <nav>
+        <img src="Image/Logos-bgrm.png" alt="Habitly Logo" width="70" />
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="Habits.html">Habits</a></li>
+
+          <li><a href="Notes.html">Notes</a></li>
+
+          <li><a href="Task.html" class="active">Tasks</a></li>
+
+          <li><a href="About.html">About</a></li>
+
+          <li>
+            <a href="Login.html">
+              <i class="fa-solid fa-arrow-right-to-bracket"></i>
+              Login
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="about-home">
+      <h1>Task Manager</h1>
+
+      <p>
+        Organize your daily work, keep track of pending tasks, and complete them
+        on time.
+      </p>
+    </section>
+
+    <!-- ================= SEARCH ================= -->
+
+    <section class="features">
+      <h2>Search Tasks</h2>
+
+      <input
+        type="text"
+        class="search-box"
+        placeholder="Search your tasks..."
+      />
+    </section>
+
+    <!-- ================= ADD TASK ================= -->
+
+    <section class="about-home">
+      <h2>Create New Task</h2>
+
+      <form>
+        <p>
+          <label>Task Title</label>
+
+          <br /><br />
+
+          <input
+            type="text"
+            class="search-box"
+            placeholder="Enter task title"
+          />
+        </p>
+
+        <br />
+
+        <p>
+          <label>Due Date</label>
+
+          <br /><br />
+
+          <input type="date" class="search-box" />
+        </p>
+
+        <br />
+
+        <p>
+          <label>Priority</label>
+
+          <br /><br />
+
+          <select class="search-box">
+            <option>Low</option>
+
+            <option selected>Medium</option>
+
+            <option>High</option>
+          </select>
+        </p>
+
+        <br />
+
+        <button class="btn">Save Task</button>
+      </form>
+    </section>
+
+    <!-- ================= TASK LIST ================= -->
+
+    <section class="features">
+      <h2>Today's Tasks</h2>
+
+      <div class="feature-container">
+        <div class="feature">
+          <i class="fa-solid fa-list-check"></i>
+
+          <h3>Complete Assignment</h3>
+
+          <p>Finish HTML and CSS project before 6 PM.</p>
+
+          <button class="btn">Completed</button>
+        </div>
+
+        <div class="feature">
+          <i class="fa-solid fa-code"></i>
+
+          <h3>Practice JavaScript</h3>
+
+          <p>Solve five coding problems.</p>
+
+          <button class="btn">Pending</button>
+        </div>
+
+        <div class="feature">
+          <i class="fa-solid fa-book"></i>
+
+          <h3>Study React</h3>
+
+          <p>Read Hooks documentation.</p>
+
+          <button class="btn">Pending</button>
+        </div>
+
+        <div class="feature">
+          <i class="fa-solid fa-envelope"></i>
+
+          <h3>Reply Emails</h3>
+
+          <p>Respond to internship emails.</p>
+
+          <button class="btn">Completed</button>
+        </div>
+
+        <div class="feature">
+          <i class="fa-solid fa-cart-shopping"></i>
+
+          <h3>Buy Groceries</h3>
+
+          <p>Purchase vegetables and fruits.</p>
+
+          <button class="btn">Pending</button>
+        </div>
+
+        <div class="feature">
+          <i class="fa-solid fa-laptop"></i>
+
+          <h3>Update Portfolio</h3>
+
+          <p>Add recent Habitly project.</p>
+
+          <button class="btn">Pending</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= POMODORO ================= -->
+
+    <section class="features">
+      <h2>Focus Timer</h2>
+
+      <div class="feature-container">
+        <div class="feature">
+          <h3 style="font-size: 55px">25:00</h3>
+
+          <p>Pomodoro Session</p>
+
+          <button class="btn">Start</button>
+        </div>
+
+        <div class="feature">
+          <h3>15 Minutes</h3>
+
+          <p>Short Break</p>
+
+          <button class="btn">Start</button>
+        </div>
+
+        <div class="feature">
+          <h3>5 Minutes</h3>
+
+          <p>Quick Break</p>
+
+          <button class="btn">Start</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= OVERVIEW ================= -->
+
+    <section class="features">
+      <h2>Task Overview</h2>
+
+      <div class="feature-container">
+        <div class="feature">
+          <h3>15</h3>
+
+          <p>Total Tasks</p>
+        </div>
+
+        <div class="feature">
+          <h3>7</h3>
+
+          <p>Completed</p>
+        </div>
+
+        <div class="feature">
+          <h3>8</h3>
+
+          <p>Pending</p>
+        </div>
+
+        <div class="feature">
+          <h3>80%</h3>
+
+          <p>Productivity</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+      <div class="foot-con">
+        <div class="f-box">
+          <h2>Habit<span>ly</span></h2>
+
+          <p>
+            Track Habits.<br />
+
+            Manage Tasks.<br />
+
+            Write Notes.
+          </p>
+        </div>
+
+        <div class="f-box">
+          <h3>Contact</h3>
+
+          <p>Email : support@habitly.com</p>
+
+          <p>Phone : +91 9876543210</p>
+        </div>
+
+        <div class="f-box">
+          <h3>Follow Us</h3>
+
+          <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="foot-bottom">
+        <p>&copy; 2026 Habitly. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
